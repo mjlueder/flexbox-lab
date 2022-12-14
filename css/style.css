@@ -61,7 +61,8 @@ main > div {
 
 main p {
   margin: 0;
-  padding: 40px
+  padding: 40px;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0))
 }
 
 nav > div {
@@ -157,7 +158,6 @@ section > img {
 }
 
 #travel-tile {
-  /* position: relative; */
   background-image: url("https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/sites/21/2022/04/05123809/20190520-EDCLV2019_0520_013634-_ADI_767x548.jpg");
   background-size: 560px 400px;
 }
