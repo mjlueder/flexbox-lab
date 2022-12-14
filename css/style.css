@@ -42,6 +42,12 @@ main {
   background-color: white;
 }
 
+h3 {
+  margin: 0;
+  padding: 50px 60px 20px;
+  font-size: 20px;
+}
+
 main > div {
   width: 560px;
   background-color: blue;
@@ -96,4 +102,23 @@ section > img {
   font-size: 35px;
   font-weight: bold;
   padding: 50px 60px;
+}
+
+#sponsor-section {
+  background-color: #F1F1F1;
+  margin: 0;
+}
+
+#sponsors {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
+  padding: 0 100px;
+}
+
+#sponsors > p {
+  width: 150px;
+  height: 74px;
+  font-weight: 900;
 }
