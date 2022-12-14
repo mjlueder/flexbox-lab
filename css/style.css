@@ -1,3 +1,10 @@
+
+
+
+/* Site: https://lasvegas.electricdaisycarnival.com/  at 1240px width */
+
+
+
 html {
   box-sizing: border-box;
 }
@@ -38,8 +45,8 @@ main {
   display: flex;
   flex-wrap: column;
   flex-flow: wrap;
-  align-items: center;
-  padding: 0 50px 50px 50px;
+  justify-content: center;
+  padding: 0 60px 50px;
   background-color: white;
 }
 
